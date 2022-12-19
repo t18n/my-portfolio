@@ -1,0 +1,26 @@
+{
+	"typescript.disableAutomaticTypeAcquisition": true,
+	"typescript.implementationsCodeLens.enabled": true,
+	"typescript.suggest.completeFunctionCalls": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.linkedEditing": true,
+	"iridium.npm.packageManager": "pnpm",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"macros": {
+    "fullFormatAndSave": [
+      "eslint.executeAutofix",
+      "editor.action.formatDocument",
+      "stylelint.executeAutofix",
+      "workbench.action.files.save"
+    ]
+  },
+}
