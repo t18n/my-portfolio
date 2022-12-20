@@ -7,6 +7,12 @@
 	<title>Turbo Ninh — About</title>
 </svelte:head>
 
+<script context="module" lang="ts">
+  export const hydrate = true
+  export const router = true
+  export const prerender = true
+</script>
+
 <Content>
 	<main>
 		<h1>About Me</h1>

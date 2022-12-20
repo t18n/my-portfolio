@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+  export const hydrate = true
+  export const router = true
+  export const prerender = true
+</script>
+
 <script lang="ts">
 	import Content from '$lib/components/Content.svelte';
 	import projects from '$lib/config/projects';
@@ -97,7 +103,7 @@
 	}
 
 	@media (min-width: 900px) {
-		.projectContainer {
+		.projects {
 			padding: 0;
 		}
 		.projects > h1 {
@@ -111,9 +117,6 @@
 
 		.projects .project {
 			min-height: 200px;
-		}
-		.button {
-			max-width: 200px;
 		}
 	}
 

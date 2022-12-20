@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+	export const hydrate = true;
+	export const router = true;
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	import Content from '$lib/components/Content.svelte';
 	import Button from '$lib/components/Button.svelte';
@@ -9,20 +15,23 @@
 
 <Content>
 	<h1>Contact me</h1>
-	<form name="contact" netlify>
-		<label>
+	<form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" netlify>
+		<input type="hidden" name="form-name" value="contact" />
+		<input type="hidden" name="bot-field" />
+
+		<label for="name">
 			Name
-			<input type="text" name="name" />
+			<input type="text" name="name" required minlength="2" />
 		</label>
 
-		<label>
+		<label for="email">
 			Email
-			<input type="email" name="email" />
+			<input type="email" name="email" required autocomplete="email" minlength="5" />
 		</label>
 
-		<label>
+		<label for="message">
 			Message
-			<textarea name="message" />
+			<textarea name="message" required minlength="40" />
 		</label>
 
 		<Button type="submit">Send</Button>

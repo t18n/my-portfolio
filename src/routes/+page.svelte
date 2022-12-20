@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+  export const hydrate = true
+  export const router = true
+  export const prerender = true
+</script>
+
 <script lang="ts">
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
