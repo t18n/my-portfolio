@@ -15,10 +15,8 @@
 
 <Content>
 	<h1>Contact me</h1>
-	<form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" netlify>
-		<input type="hidden" name="form-name" value="contact" />
-		<input type="hidden" name="bot-field" />
-
+	<form name="contact-me-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+		<input type="hidden" name="form-name" value="contact-me-form" />
 		<label for="name">
 			Name
 			<input type="text" name="name" required minlength="2" />
