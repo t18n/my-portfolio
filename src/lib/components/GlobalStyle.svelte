@@ -15,6 +15,7 @@
 		--color-bg-light: #4b555e;
 		--color-gray: #c9c3c6;
 		--color-white: #ffffff;
+		--color-error: #ff0000;
 
 		/* Border */
 		--border-radius: 8px;
