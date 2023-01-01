@@ -1,6 +1,7 @@
 <footer>
 	Created by <a class="me" href="/about">Turbo</a> with ☕ and
-	<a class="me" href="https://svelte.dev/" target="_blank" rel="noreferrer">Svelte</a>
+	<a class="me" href="https://svelte.dev/" target="_blank" rel="noreferrer">Svelte</a>. It is
+	open-sourced <a href="https://github.com/turboninh/turboninh-portfolio" target="_blank">here</a>.
 </footer>
 
 <style>
