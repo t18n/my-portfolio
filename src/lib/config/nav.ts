@@ -15,10 +15,10 @@ const routes = [
 		href: '/services',
 		label: 'Services'
 	},
-	{
-		href: '/contact',
-		label: 'Contact'
-	},
+	// {
+	// 	href: 'https://wedding.t18n.com',
+	// 	label: 'My wedding'
+	// },
 ];
 
 export default routes;

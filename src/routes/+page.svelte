@@ -20,11 +20,6 @@
 		<h1>Hi!👋 <br /></h1>
 		<h2>I'm Turbo, a random full-stack Javascript developer based in Copenhagen</h2>
 		<div class="icons">
-			<a href="/contact">
-				<div class="icon">
-					<FaEnvelope />
-				</div>
-			</a>
 			<a
 				href="https://github.com/turboninh"
 				aria-label="GitHub"
