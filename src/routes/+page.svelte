@@ -18,7 +18,7 @@
 <Content>
 	<div class="main">
 		<h1>Hi!👋 <br /></h1>
-		<h2>I'm Turbo, a random full-stack Javascript developer based in Copenhagen</h2>
+		<h2>I'm Turbo, a JS full-stacker/Tech Lead based in Copenhagen</h2>
 		<div class="icons">
 			<a
 				href="https://github.com/turboninh"

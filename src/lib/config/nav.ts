@@ -4,16 +4,16 @@ const routes = [
 		label: 'Home'
 	},
 	{
-		href: '/about',
-		label: 'About Me'
-	},
-	{
 		href: '/projects',
 		label: 'Projects'
 	},
 	{
 		href: '/services',
 		label: 'Services'
+	},
+	{
+		href: '/about',
+		label: 'About Me'
 	},
 	// {
 	// 	href: 'https://wedding.t18n.com',

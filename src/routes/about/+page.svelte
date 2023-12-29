@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+	export const hydrate = true;
+	export const router = true;
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	import Content from '$lib/components/Content.svelte';
 	import skills from '$lib/config/skills';
@@ -7,15 +13,13 @@
 	<title>Turbo Ninh — About</title>
 </svelte:head>
 
-<script context="module" lang="ts">
-  export const hydrate = true
-  export const router = true
-  export const prerender = true
-</script>
-
 <Content>
 	<main>
-		<h1>About Me</h1>
+		<h2>About me</h2>
+		<p>
+			<b>Fun fact</b>: "t18n" is the abbreviation of my super-duper-long-ass Vietnamese name. The "18" represents the number of letters in my name (when written in the western order) between "t" and "n". It is inspired by other programming terms like "i18n", "i18n", "k8s", "a11y". It is short, technical, mysterious and brandable. And the domain was available. So yes, this is what I ended up with :D
+		</p>
+		<h2>Professional</h2>
 		<p>
 			Hello there!
 			<br />
@@ -23,7 +27,7 @@
 			Thanks for visiting my website.
 			<br />
 			<br />
-			My name is Turbo. I am a full-stack Javascript developer based in the beautiful city of Copenhagen.
+			My name is Turbo. I am a Tech Lead / full-stack Javascript developer based in the beautiful city of Copenhagen.
 			As a programmer, I am constantly seeking out new challenges and love nothing more than diving into
 			complex projects and architecting solutions that truly make a difference. In my free time, I am
 			passionate about continuing to learn and stay up-to-date on the latest technologies, learning about

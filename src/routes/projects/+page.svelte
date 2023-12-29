@@ -14,7 +14,10 @@
 </svelte:head>
 
 <Content>
-	<div class="projects">
+	<main>
+		<h1>COMING SOON</h1>
+	</main>
+	<!-- <div class="projects">
 		<h1>Projects</h1>
 
 		{#each projects as project}
@@ -38,7 +41,7 @@
 				<a href={project.url} target="_blank" rel="noreferrer"> Learn more </a>
 			</div>
 		{/each}
-	</div>
+	</div> -->
 </Content>
 
 <style>
